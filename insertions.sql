@@ -1,5 +1,5 @@
 INSERT INTO Person VALUES
-(1, 'Tralalelo Tralala', 160, 'shark', "fresh Jordan's", FALSE),
+(1, 'Tralalelo Tralala', 180, 'shark', "fresh Jordan's", FALSE),
 (2, 'Bombardiro Crocodilo', 44000, 'crocodile mutated into a bombing plane', 'metal plating', FALSE),
 (3, 'Tung Tung Tung Tung Tung Tung Tung Tung Tung Sahur', 178, 'baseball bat', 'barefoot', FALSE),
 (4, 'Lirilì Larilà', 336, 'elephant-cactus hybrid', 'sandals', FALSE),
@@ -34,15 +34,59 @@ INSERT INTO Relationship VALUES
 (7, 3, "Maffia ex-colleagues"),
 (8, 3, "Security colleagues"),
 (9, 4, "bffs"),
+(9,6, "The Studio colleagues"),
 (9, 10, "The Studio colleagues"),
 (10, 1, "gym bros"),
+(10,6, "The Studio colleagues"),
 (10, 9, "The Studio colleagues"),
 (11, 7, "Maffia colleagues"),
 (11, 3, "Maffia ex-colleagues");
 
 INSERT INTO Interview VALUES
-(1, 1, 1, '2025-05-15')
+(1, 1, 1, '2025-05-15'),
+(2, 1, 2, '2025-05-15'),
+(3, 1, 6, '2025-05-16'),
+(4, 1, 10, '2025-05-16'),
+(5, 1, 4, '2025-05-17'),
+(6, 1, 5, '2025-05-17'),
+(7, 1, 7, '2025-05-18'),
+(8, 1, 8, '2025-05-21'),
+(9, 1, 9, '2025-05-22'),
+(10, 1, 11, '2025-05-23')
 
 
 INSERT INTO Statement VALUES
-(1, 1, "When Tung Tung Tung Tung Tung Tung Tung Tung Tung Sahur died\nI was in the gym ")
+(1, 1, "I was in the gym that day with Orange, he is my gymbro."),
+(2, 1, "He isn't really my friend, I just go to gym with him, but he is a crackhead, he used to come in the gym high as fuck"),
+(3, 1, "Sahur died?..., I wasn't related to him in any way, but I've heard some tales about him."),
+(4, 1, "Some say he was a runner for The Maffia, he was their best man"),
+(5, 2, "I work for FedEx, as you can see I'm a goddamn plane, so it is the perfect job for me."),
+(6, 2, "My colleague, Chimpanzini Bananini is clean I can tell you that, he is my coordinator, without him I couldn't deliver the packages."),
+(7, 2, "Tung Tung Tung Sahur?..., I don't know that fella, but it is a shame that he died."),
+(8, 3, "Yes, I work for FedEx, I work as a coordinator on board of Bombardillo Crocodillo."),
+(9, 3, "I also work a part-time job at The Studio, it is a music studio, I work there as a ghostwriter."),
+(10, 3, "Here is the delivery list from that day, as you can see we had work for the entirety of the day."),
+(11, 3, "Tung Tung Tung Sahur..., Hmmm..., Wait...., That rings a bell, he was strange, he had a package on the same day of every month..."),
+(12, 4, "Yea Tralalelo Tralala is my homie dawg, we were working on these legs mah boy."),
+(13, 4, "I work at The Studio, I am a rapper yo, wanna hear a dope ass bar?..., 'I fell in love with the pen, started fuckin the ink (yuh)'"),
+(14, 4, "Tung Tung Tung Sahur?, I knew that boy, he never knew his place, thought he can fuck with Bobrito, stole some money from him, let's just say Bobrito wasn't thrilled to hear this..."),
+(15, 5, "I'm a producer working for The Record, it's a new studio made by Brr Brr Patapim, he is a rapper, but I previously worked for The Studio."),
+(16, 5, "The day when that incident happened, me and Frigo Camelo, were at my house, we were playing video games together. I live close to that mansion, and I heard the explosion too... When I looked out the window I saw someone aroun 160cms tall running away."),
+(17, 5, "I knew Sahur a bit, saw him back then at The Studio, he and Orange had a shady business going, that is one of the many reasons I left The Studio"),
+(18, 6, "I'm sad man, he was my homie, my dawg, I couldn't have started The Record without him, he gave me the money for it, told me he took money from his boss, but said he would pay it back in no time..."),
+(19, 6, "I started The Record in retaliation, The Studio's musics are ass in my opinion, even though that goddamn Orange has a ghostwriter..., fuckin druggie he is."),
+(20, 6, "I know that he wasn't a saint or sum shit like that, but he would never hurt anyone, he was always mysterious, he would never tell me what was his job, I always told him to leave whatever job he was doing."),
+(21, 7, "I am just a simple bartender at Bobrito's Family Diner, I serve drinks, mostly coffees."),
+(22, 7, "I knew Tung Tung Tung Sahur very good, he used to come a lot to Bobrito's before that tragic event, he spent most of his time in the boss's office."),
+(23, 7, "The outfit?, well I uuuuhhh, just like ninjas that's all, hehe."),
+(24, 8, "I worked as guard for Tung Tung Tung Sahur, he payed me real good I can't lie, that night was supposed to be just a normal night like every other..."),
+(25, 8, "It was around 11pm when there was a big explosion at the front gate of the mansion, I ran to the gate to check what was it, but nothing was there..."),
+(26, 8, "A little after that I heard a glass break back at the mansion, I ran into the building straight into his room, there I saw the killer, couldn't make out much, but he was short that is for sure..."),
+(27, 8, "Who did it you ask?, Well..., maybe the guys from The Studio, they now have a rival studio because of Sahur, but I really don't, I was only his bodyguard..."),
+(28, 9, "Main producer for The Studio, that's who I am, I was there since the beginning."),
+(29, 9, "I ain't mad 'bout the other studio, heck it's actually good, Lil Orange needs to get his shit together..., since he's been on dope, he's not been himself lately, and his music started sounding terrible lately..."),
+(30, 9, "Knew Sahur really good, used to come on the same goddamn day of every month, used to sell dope to Orange..."),
+(31, 9, "Who's Orange?..., he's U Din Din Din Din Dun Ma Din Din Din Dun."),
+(32, 10, "Do I really need to introduce myself?, I am Bobrito, I run Bobrito's Family Diner."),
+(33, 10, "We do delivery across the city, Sahur was the delivery guy, he was the best because he was the fastest."),
+(34, 10, "He had a mansion?..., well the money I paid him couldn't be enough for him to buy a mansion, he probably did some shady stuff, hahahaha..., stupid kid...")

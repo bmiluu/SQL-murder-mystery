@@ -1,0 +1,50 @@
+.custom-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card {
+        width: 20rem;
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-card .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom-card .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.85rem;
+    }
+
+
+    .custom-card-large{
+        width: 26rem;
+        height: 42rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-card .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom-card .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.9rem;
+    }
+
+.custom-name-size{
+    font-size: 1.2rem;
+}

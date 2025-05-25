@@ -19,7 +19,7 @@ CREATE TABLE Relationship (
     FOREIGN KEY (friend_id) REFERENCES Person(person_id),
     PRIMARY KEY (person_id, friend_id)
 );
-
+DROP TABLE Relationship;
 CREATE TABLE Detective (
     detective_id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -36,9 +36,13 @@ CREATE TABLE Interview (
     FOREIGN KEY (person_id) REFERENCES Person(person_id)
 );
 
+DROP TABLE Interview;
+
 CREATE TABLE Statement (
     statement_id INT PRIMARY KEY,
     interview_id INT,
     content TEXT,
     FOREIGN KEY (interview_id) REFERENCES Interview(interview_id)
 );
+
+DROP TABLE Statement;
